@@ -289,7 +289,7 @@ code {
 }
 
 a:link {
-	-webkit-tap-highlight-color: #fe83a8
+	-webkit-tap-highlight-color: #3d89e0
 }
 
 table {
@@ -579,7 +579,7 @@ select[multiple] {
 	padding: 10px 25px 15px;
 	color: #111;
 	border: 0;
-	background-color: #df4986;
+	background-color: #6cacf5;
 	text-decoration: none;
 	border-radius: 25px
 }
@@ -991,14 +991,15 @@ pre>code {
 	color: #fff!important;
 	font-size: 48px;
 	line-height: 1.2;
-	font-weight: 700;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 	border: 0
 }
 
 @media (min-width:400px) {
 	.menu-is-open .nav-link {
-		font-size: 72px
+		font-size: 60px
 	}
 }
 
@@ -1010,7 +1011,7 @@ pre>code {
 	left: -5%;
 	right: -5%;
 	height: 3px;
-	background: #df4986
+	background: #6cacf5
 }
 
 .menu-is-open .nav-toggle {
@@ -1469,7 +1470,7 @@ pre>code {
 }
 
 .issue--mit .hero .card-inner {
-	background-color: #df4986
+	background-color: #6cacf5
 }
 
 .issue--mit .hero-hdr-line-1 {
@@ -1496,7 +1497,7 @@ pre>code {
 	position: relative;
 	display: block;
 	padding: 5px 0;
-	background: #df4986;
+	background: #6cacf5;
 	z-index: 201
 }
 
@@ -1792,8 +1793,8 @@ pre>code {
 
 .spread-hdr-link {
 	text-decoration: none;
-	-webkit-box-shadow: inset 0 -2px 0 0 #acf6ff;
-	box-shadow: inset 0 -2px 0 0 #acf6ff;
+	-webkit-box-shadow: inset 0 -2px 0 0 #6cacf5;
+	box-shadow: inset 0 -2px 0 0 #6cacf5;
 	-webkit-transition: -webkit-box-shadow .2s cubic-bezier(0,0,.58,1);
 	transition: -webkit-box-shadow .2s cubic-bezier(0,0,.58,1);
 	transition: box-shadow .2s cubic-bezier(0,0,.58,1);
@@ -1801,12 +1802,12 @@ pre>code {
 }
 
 .spread-hdr-link:hover {
-	-webkit-box-shadow: inset 0 -12px 0 0 #acf6ff;
-	box-shadow: inset 0 -12px 0 0 #acf6ff
+	-webkit-box-shadow: inset 0 -12px 0 0 #6cacf5;
+	box-shadow: inset 0 -12px 0 0 #6cacf5
 }
 
 .spread-hdr-link:focus {
-	outline: solid #acf6ff;
+	outline: solid #6cacf5;
 	outline-offset: 3px
 }
 
@@ -1967,7 +1968,7 @@ pre>code {
 }
 
 .spread.colorway--spot,article.colorway--spot,section.colorway--spot {
-	background: #df4986;
+	background: #6cacf5;
 	color: #fff
 }
 
@@ -2061,7 +2062,7 @@ pre>code {
 	}
 
 	.spread .spread-cell.colorway--spot {
-		background: #df4986;
+		background: #6cacf5;
 		color: #fff
 	}
 
@@ -2963,7 +2964,8 @@ pre>code {
 
 .card-caption {
 	font-size: 12px;
-	color:#b0b3b4
+	color:#b0b3b4;
+	text-align: center;
 	line-height: 1.5;
 	margin: 4px 0 50px 0
 }
@@ -3212,7 +3214,7 @@ pre>code {
 }
 
 .apprentice-form__label:after {
-	color: #df4986;
+	color: #6cacf5;
 	content: '*';
 	display: inline-block;
 	padding-left: 2px;
@@ -3256,7 +3258,7 @@ pre>code {
 }
 
 .apprentice-form__submit {
-	background-color: #df4986;
+	background-color: #6cacf5;
 	color: #fff!important;
 	padding-right: 40px!important;
 	padding-left: 40px!important
@@ -3298,8 +3300,8 @@ pre>code {
 }[data-status=hidden] .apprentice-form__notification-text {
 	opacity: 0
 }[data-status=success] .apprentice-form__notification-text {
-	border: 3px solid #df4986;
-	color: #df4986;
+	border: 3px solid #6cacf5;
+	color: #6cacf5;
 	opacity: 1
 }[data-status=failure] .apprentice-form__notification-text {
 	border: 3px solid rgba(235,66,61,.7);
@@ -3570,7 +3572,7 @@ pre>code {
 }
 
 .work-list-cta--case-study {
-	color: #df4986
+	color: #6cacf5
 }
 
 .work-list-link:focus .work-list-cta--case-study,.work-list-link:hover .work-list-cta--case-study {
@@ -3930,7 +3932,7 @@ pre>code {
 .job-list-cta {
 	display: inline-block;
 	font-style: italic;
-	color: #df4986
+	color: #6cacf5
 }
 
 @media (min-width:1070px) {
@@ -3948,7 +3950,7 @@ pre>code {
 }
 
 .job-list-cta--close:after {
-	background: #df4986;
+	background: #6cacf5;
 	content: "";
 	height: 6px;
 	left: 0;
@@ -7699,8 +7701,8 @@ code[class*=language-] .hljs-title {
 
 .gsd-hero--text .gsd-hero-txt a {
 	text-decoration: none;
-	-webkit-box-shadow: inset 0 -1px 0 0 #fe83a8;
-	box-shadow: inset 0 -1px 0 0 #fe83a8;
+	-webkit-box-shadow: inset 0 -1px 0 0 #3d89e0;
+	box-shadow: inset 0 -1px 0 0 #3d89e0;
 	-webkit-transition: -webkit-box-shadow .2s cubic-bezier(0,0,.58,1);
 	transition: -webkit-box-shadow .2s cubic-bezier(0,0,.58,1);
 	transition: box-shadow .2s cubic-bezier(0,0,.58,1);
@@ -7708,8 +7710,8 @@ code[class*=language-] .hljs-title {
 }
 
 .gsd-hero--text .gsd-hero-txt a:hover {
-	-webkit-box-shadow: inset 0 -6px 0 0 #fe83a8;
-	box-shadow: inset 0 -6px 0 0 #fe83a8;
+	-webkit-box-shadow: inset 0 -6px 0 0 #3d89e0;
+	box-shadow: inset 0 -6px 0 0 #3d89e0;
 }
 
 .gsd-hero--text .gsd-hero-txt a:focus {
